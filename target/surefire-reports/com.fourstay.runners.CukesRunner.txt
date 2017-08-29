@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.fourstay.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 338.361 sec <<< FAILURE! - in com.fourstay.runners.CukesRunner
+Then the results should contain(Scenario: Verify results in DC metro area)  Time elapsed: 0.214 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to no longer be visible: By.cssSelector: div.se-pre-con (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Rakhibs-MacBook-Air.local', ip: 'fe80:0:0:0:9ef3:87ff:feb5:9396%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/55/7387dtyj6ngbfl6_qfsx70s00000gn/T/rust_mozprofile.uuFz4MaFVv82, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=14.3.0, moz:processID=36298.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
+Session ID: ca4c5b81-1fd8-4d47-866d-ee9d52f78439
+
+Scenario: Verify results in DC metro area  Time elapsed: 0.215 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to no longer be visible: By.cssSelector: div.se-pre-con (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Rakhibs-MacBook-Air.local', ip: 'fe80:0:0:0:9ef3:87ff:feb5:9396%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/55/7387dtyj6ngbfl6_qfsx70s00000gn/T/rust_mozprofile.uuFz4MaFVv82, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=14.3.0, moz:processID=36298.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
+Session ID: ca4c5b81-1fd8-4d47-866d-ee9d52f78439
+
+Then the results should contain(Scenario: Verify results in DC metro area)  Time elapsed: 0.174 sec  <<< FAILURE!
+java.lang.AssertionError
+
+Scenario: Verify results in DC metro area  Time elapsed: 0.233 sec  <<< FAILURE!
+java.lang.AssertionError
+
